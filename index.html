@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Hangman</h1>
+    <p>Find the hidden word - Enter a letter</p>
+    <svg class="game-container" width="200" height="300">
+        <!--Rod-->
+        <line x1="60" y1="20" x2="140" y2="20"></line>
+        <line x1="60" y1="20" x2="60" y2="260"></line>
+        <line x1="140" y1="20" x2="140" y2="60"></line>
+        <line x1="20" y1="260" x2="100" y2="260"></line>
+        <!--Head-->
+        <circle r="20" cx="140" cy="80" class="figure_parts"></circle>
+        <!--body-->
+        <line x1="140" y1="100" x2="140" y2="180" class="figure_parts"></line>
+        <!--arms-->
+        <line x1="140" y1="130" x2="110" y2="105" class="figure_parts"></line>
+        <line x1="140" y1="130" x2="170" y2="105" class="figure_parts"></line>
+        <!--Legs-->
+        <line x1="140" y1="180" x2="110" y2="210" class="figure_parts"></line>
+        <line x1="140" y1="180" x2="170" y2="210" class="figure_parts"></line>
+    </svg>
+
+</body>
+</html>

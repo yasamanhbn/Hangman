@@ -1,0 +1,18 @@
+body{
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    fill:transparent;
+    stroke: #fff;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+.figure_parts{
+    display: none;
+}
