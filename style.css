@@ -1,6 +1,6 @@
 body{
-    background-color: #34495e;
-    color: white;
+    background-color: #75c2b3;
+    color: black;
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body{
 
 .game-container{
     fill:transparent;
-    stroke: #fff;
+    stroke: black;
     stroke-width: 4px;
     stroke-linecap: round;
 }
@@ -24,8 +24,6 @@ body{
     right: 20%;
 }
 .wrong-letter{
-    display: flex;
-    flex-direction: column;
     font-size: 25px;
 }
 .word{
@@ -34,7 +32,7 @@ body{
 .word .letter{
     font-size: 30px;
     margin: 5px;
-    border-bottom: solid 3px #3378dd;
+    border-bottom: solid 3px #0b5f4e;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +51,7 @@ body{
     justify-content: center;
 }
 .popup{
-    background-color: #2980b9;
+    background-color: #00ffcc;
     border-radius: 5px;
     box-shadow: 2px 4px 4px rgba(0,0,0,0.25);
     padding: 20px;
@@ -65,7 +63,7 @@ body{
     padding: 8px;
     border: none;
     font-weight: bold;
-    color: #2980b9;
+    color: #0d382f;
 }
 .popup button:active{
     transform: scale(0.98);
